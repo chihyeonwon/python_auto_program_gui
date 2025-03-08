@@ -1,5 +1,5 @@
 # python_auto_program_gui
-[파이썬 자동화 gui](https://wikidocs.net/85709)
+[파이썬 자동화 gui 문서](https://wikidocs.net/85709)
 업무 자동화 프로그램 파이썬 필요한 공부 
 
 작업표시줄 위에 떠 있는 아이콘의 위치를 계산
