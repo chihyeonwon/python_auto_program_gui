@@ -37,7 +37,7 @@ if color == (0, 120, 215):  # 예: Windows 기본 아이콘 색상
     print("파란색 아이콘이 감지되었습니다!")
 ```
 단축키 자동화 python
-```
+```python
 import keyboard
 
 # 특정 단축키 차단 (예: Ctrl+C, Alt+Tab)
