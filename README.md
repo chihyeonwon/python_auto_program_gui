@@ -1,6 +1,7 @@
 # python_auto_program_gui
 업무 자동화 프로그램 파이썬 필요한 공부 
 
+작업표시줄 위에 떠 있는 아이콘의 위치를 계산
 ```
 import pygetwindow as gw
 import pyautogui
