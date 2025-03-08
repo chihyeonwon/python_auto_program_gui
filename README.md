@@ -1,5 +1,8 @@
 # python_auto_program_gui
+, 정부부처나 공공기관에서 가장 많이 사용하는 아래아한글과 관련한 업무자동화 콘텐츠가 하나도 없습니다. 스크립트매크로 사용법도 무슨 대외비인 듯 공유가 잘 되지 않고, 어렵게 API 문서를 구해도, 입문자는 읽기 어려워서 독학 진입장벽이 꽤 높기도 합니다. 그래서 파이썬 기본문법만 익힌 회사원을 대상으로 아래아한글 자동화 강의를 만들게 되었습니다.
+
 [파이썬 자동화 gui 문서](https://wikidocs.net/85709)
+[아래아한글파일 자동화](https://www.inflearn.com/course/%EB%B9%A0%EB%A5%B4%EA%B2%8C-%EB%B0%B0%EC%9A%B0%EB%8A%94-%ED%8C%8C%EC%9D%B4%EC%8D%AC-%EC%9E%90%EB%8F%99%ED%99%94?srsltid=AfmBOoooRGmEKAftkJps4jrt_1-7f3m6L9Fpij3fMdovApVCIlURbuub)
 업무 자동화 프로그램 파이썬 필요한 공부 
 
 작업표시줄 위에 떠 있는 아이콘의 위치를 계산
