@@ -35,3 +35,30 @@ else:
 if color == (0, 120, 215):  # 예: Windows 기본 아이콘 색상
     print("파란색 아이콘이 감지되었습니다!")
 ```
+단축키 자동화
+```
+import keyboard
+
+# 특정 단축키 차단 (예: Ctrl+C, Alt+Tab)
+block_keys = ["ctrl+c", "alt+tab", "win+d"]
+
+def block_hotkeys(event):
+    if event.name in block_keys:
+        print(f"{event.name} 단축키가 차단되었습니다.")
+        return False  # 입력 차단
+
+# 키 이벤트 감지하여 차단
+for key in block_keys:
+    keyboard.block_key(key)
+
+# 사용자 정의 단축키 설정
+def custom_function():
+    print("Ctrl+Shift+S 단축키가 감지되었습니다! 원하는 기능을 실행하세요.")
+
+keyboard.add_hotkey("ctrl+shift+s", custom_function)  # Ctrl+Shift+S 입력 시 실행
+
+print("단축키 감지가 시작되었습니다. 종료하려면 Ctrl+C를 누르세요.")
+keyboard.wait("esc")  # ESC 키를 누를 때까지 실행 유지
+```
+
+복사, 붙여넣기 자동화
