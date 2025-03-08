@@ -2,7 +2,7 @@
 업무 자동화 프로그램 파이썬 필요한 공부 
 
 작업표시줄 위에 떠 있는 아이콘의 위치를 계산
-```
+```python
 import pygetwindow as gw
 import pyautogui
 from PIL import ImageGrab
@@ -36,7 +36,7 @@ else:
 if color == (0, 120, 215):  # 예: Windows 기본 아이콘 색상
     print("파란색 아이콘이 감지되었습니다!")
 ```
-단축키 자동화
+단축키 자동화 python
 ```
 import keyboard
 
